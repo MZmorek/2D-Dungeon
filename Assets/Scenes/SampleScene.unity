@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 134960770}
   - component: {fileID: 134960771}
   - component: {fileID: 134960772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,7 +512,7 @@ Animator:
   m_GameObject: {fileID: 134960764}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1b9f54b73e05eae4a9fe5d44dae61d8f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 95c751e45373e1d46b61fbf7e8fdf700, type: 2}
   m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7626,7 +7626,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e7188f4ed754e4a128747aee7e271f2d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.268
+  m_Volume: 0.045
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -14318,19 +14318,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33caa98488acab84eb9ebbd9e237cd18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundCheck: {fileID: 1174635355}
-  playerMask:
-    serializedVersion: 2
-    m_Bits: 8
-  movementSpeed: 4
-  jumpForce: 20
-  isGrounded: 0
-  groundCheckRadius: 0.25
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  groundCheckRadius: 0.25
+  movementSpeed: 4
+  jumpForce: 20
+  isGrounded: 0
   jumpSFX: {fileID: 475146947}
   footstepsSFX: {fileID: 0}
+  groundCheck: {fileID: 1174635355}
 --- !u!50 &1593939846
 Rigidbody2D:
   serializedVersion: 4
@@ -14674,7 +14674,7 @@ GameObject:
   - component: {fileID: 1793159236}
   - component: {fileID: 1793159238}
   m_Layer: 0
-  m_Name: Square
+  m_Name: ScreenFader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -9,12 +9,12 @@ public class FadeAway : MonoBehaviour
     private Coroutine fadeCoroutine;
     private float transparency = 0;
 
-    private void Start()
-    {
-        fadeCoroutine = StartCoroutine(Blackout());
-    }
+    //private void Start()
+    //{
+    //    fadeCoroutine = StartCoroutine(Blackout());
+    //}
 
-    private IEnumerator Blackout()
+    private IEnumerator ScreenFadeAway()
     {
         yield return new WaitForSeconds(3f);
 

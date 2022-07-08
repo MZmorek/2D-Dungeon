@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class OpenChest : MonoBehaviour
 {
 
-    [SerializeField]private Animator chestAnimation;
+    [SerializeField] private Animator chestAnimation;
 
     private void Start()
     {
